@@ -120,7 +120,7 @@ sentinela-entomologico/
 ```bash
 # Clone o repositório
 git clone https://github.com/brunoneemias/Sentinela-Entomol-gico.git
-cd Sentinela-Entomol-gico
+cd sentinela-entomologico
 
 # Instale as dependências
 pip install customtkinter Pillow openai
@@ -134,6 +134,7 @@ Abra o arquivo `main.py` e substitua o valor da variável `OPENAI_API_KEY` pela 
 OPENAI_API_KEY = "sua-chave-aqui"
 ```
 
+> ⚠️ **Atenção:** Nunca suba sua chave de API para repositórios públicos. Prefira usar variáveis de ambiente.
 
 ### Execução
 
@@ -153,6 +154,16 @@ python main.py
 
 ---
 
+## 🧪 Demonstração — IA em Ação
+
+Exemplo real do sistema classificando um inseto a partir de uma fotografia:
+
+![Diagnóstico por IA](imagens/teste.png)
+
+> *A IA analisa a imagem e retorna a classificação de risco com justificativa morfológica detalhada.*
+
+---
+
 ## 📦 Dependências
 
 | Biblioteca | Versão | Uso |
@@ -165,7 +176,7 @@ python main.py
 
 ## 📄 Licença
 
-Projeto desenvolvido para fins acadêmicos 
+Projeto desenvolvido para fins acadêmicos — Disciplina de Algoritmos e Aprendizado de Máquina.
 
 ---
 

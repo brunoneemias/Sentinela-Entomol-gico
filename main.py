@@ -6,8 +6,6 @@ from dataclasses import dataclass
 from typing import Dict, List, Optional
 import base64  # Para codificar imagens para a API da OpenAI
 
-# Certifique-se de ter a chave da API da OpenAI configurada como variável de ambiente
-# ou substitua 'os.getenv("OPENAI_API_KEY")' pela sua chave diretamente (NÃO RECOMENDADO PARA PRODUÇÃO)
 OPENAI_API_KEY = "sua-chave-aqui"
 
 # Importar a biblioteca OpenAI (pip install openai)
